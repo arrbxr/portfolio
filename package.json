@@ -4,6 +4,7 @@
   "homepage": "https://arrbxr.github.io/portfolio/",
   "private": true,
   "dependencies": {
+    "animate.css": "^3.7.2",
     "bootstrap": "4",
     "font-awesome": "4.7",
     "gh-pages": "^2.1.1",

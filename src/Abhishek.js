@@ -4,6 +4,7 @@ import Home from "./components/home";
 import About from "./components/about";
 import Footer from "./components/footer";
 import "./Abhishek.css";
+import "animate.css";
 import "./js/style";
 import WOW from "wowjs";
 
