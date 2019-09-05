@@ -1,0 +1,20 @@
+.custom-navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.705);
+  z-index: 1000 !important;
+}
+.navbar-brand {
+  color: aqua;
+}
+.navbar-brand:hover {
+  color: aquamarine;
+}
+.navbar-toggler-icon {
+  color: red !important;
+}
+.navbar-nav-custom a {
+  color: aqua;
+}

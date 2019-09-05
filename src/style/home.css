@@ -1,0 +1,92 @@
+.home-section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://github.com/arrbxr/portfolio/blob/master/img/back.jpg?raw=true);
+  background-size: cover;
+}
+
+.home-section .home-section-caption {
+  position: absolute;
+  width: 100%;
+  top: 25%;
+  left: 0;
+}
+
+.home-section .home-section-caption .img {
+  text-align: center;
+}
+
+.home-section,
+.home-section-caption p {
+  color: rgb(0, 48, 43) !important;
+  font-family: "Noto Serif", serif;
+}
+
+.my-name {
+  font-size: 3.4em;
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.my-name-desc {
+  font-size: 2em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.home-section .line {
+  height: 2px;
+  width: 40%;
+  border: 3px dotted;
+  border-bottom-color: rgb(62, 255, 72);
+  border-top-color: rgb(234, 0, 255);
+  margin: 0 auto;
+  border-radius: 100%;
+}
+
+.facebook-follow {
+  position: absolute;
+  bottom: 0%;
+  left: 15px;
+}
+
+@media (max-width: 768px) {
+  .home-section .home-section-caption {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+  }
+  .my-name {
+    font-size: 3.5em;
+  }
+  .my-name-desc {
+    letter-spacing: 4px;
+    margin-top: 5px;
+    font-size: 2em;
+  }
+  .home-section .line {
+    width: 75%;
+  }
+}
+@media (max-width: 544px) {
+  .home-section .home-section-caption {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    left: 0;
+  }
+  .my-name {
+    font-size: 2.5em;
+  }
+
+  .my-name-desc {
+    letter-spacing: 5px;
+    margin-top: 4px;
+    font-size: 1em;
+  }
+  .home-section .line {
+    width: 95%;
+  }
+}
