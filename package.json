@@ -1,10 +1,12 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
+  "homepage": "https://arrbxr.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "bootstrap": "4",
     "font-awesome": "4.7",
+    "gh-pages": "^2.1.1",
     "jquery": "3.2.1",
     "popper.js": "1.12.9",
     "react": "^16.9.0",
@@ -16,6 +18,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
